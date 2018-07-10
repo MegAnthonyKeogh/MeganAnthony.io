@@ -16,15 +16,7 @@ header {
 
 }
 
-div {
-    position: relative;
-    top: 50px;
-    background: rgba(0, 0, 0, 0.5);
-    color: #f1f1f1;
-    width: 100%;
-    padding: 20px;
-    
-}
+
 
 h1 {
     font-family: 'Handlee', cursive;
@@ -53,4 +45,51 @@ img {
     margin: 40px;
     float: left;
     
+}
+
+.main {
+    width: 90%;
+    margin-bottom: 20px;
+    padding: 20px;
+    padding-bottom: 50px;
+    min-height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    position: relative;
+    text-align: center;
+    
+}
+
+.PortfolioPic {
+    
+    z-index: 1;
+    position: relative;
+    margin: 40px;
+    float: left;
+}
+
+.overlay {
+    Position: absolute;
+    Width: 250px;
+    Height: 60px;
+    bottom: 0;
+    background: #4aaaa5;
+    z-index: 2;
+    margin: 40px;
+}
+
+.textoverlay {
+    Position: absolute;
+    width: 250px;
+    Height: 20px;
+    bottom: 0;
+    text-align: center;
+    z-index: 3;
+    color: white;
+    font-size: 24px;
+    margin: 40px;
+}
+#last {
+    clear:both;
+    margin: 50px;
+
 }
