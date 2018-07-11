@@ -108,3 +108,10 @@ img {
     margin: 50px;
 
 }
+.col-sm {
+    height: 250px;
+    margin-bottom: 60px;
+}
+.row {
+    height: auto;
+}
