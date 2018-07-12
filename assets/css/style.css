@@ -26,7 +26,8 @@ h1 {
 }
 
 p {
-    font-family: 'Handlee', cursive;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.5;
     font-size: 29px;
     color: white;
     text-align: center;
@@ -68,7 +69,7 @@ img {
     
     z-index: 1;
     position: relative;
-    margin: 20px;
+    margin: 75px;
     height: 250px;
     width: 250px;
     float: left;
@@ -119,14 +120,14 @@ img {
 }
 
 .tooltip {
-    position: absolute;
+    position: relative;
     display: inline-block;
     border-bottom: 1px dotted black;
 }
 
 .tooltip1 .tooltiptext1 {
     visibility: hidden;
-    width: 120px;
+    width: 100px;
     background-color: black;
     color: #fff;
     text-align: center;
@@ -143,7 +144,7 @@ img {
 }
 .tooltip2 .tooltiptext2 {
     visibility: hidden;
-    width: 120px;
+    width: 100px;
     background-color: black;
     color: #fff;
     text-align: center;
@@ -161,7 +162,7 @@ img {
 
 .tooltip3 .tooltiptext3 {
     visibility: hidden;
-    width: 120px;
+    width: 100px;
     background-color: black;
     color: #fff;
     text-align: center;
@@ -179,7 +180,7 @@ img {
 
 .tooltip4 .tooltiptext4 {
     visibility: hidden;
-    width: 120px;
+    width: 100px;
     background-color: black;
     color: #fff;
     text-align: center;
@@ -197,7 +198,7 @@ img {
 
 .tooltip5 .tooltiptext5 {
     visibility: hidden;
-    width: 120px;
+    width: 100px;
     background-color: black;
     color: #fff;
     text-align: center;
@@ -215,7 +216,7 @@ img {
 
 .tooltip6 .tooltiptext6 {
     visibility: hidden;
-    width: 120px;
+    width: 100px;
     background-color: black;
     color: #fff;
     text-align: center;
@@ -229,4 +230,29 @@ img {
 
 .tooltip6:hover .tooltiptext6 {
     visibility: visible;
+}
+
+#icons {
+    height: 50px;
+    width: 50px;
+    margin: 20px;
+}
+
+#iconic {
+    width: 90%;
+    margin: 40px;
+    padding: 20px;
+    padding-bottom: 50px;
+    min-height: 100%;
+    background: rgba(192, 181, 181, 0.5);
+    align-items: center;
+}
+#about {
+    background: rgba(192, 181, 181, 0.5); 
+    width: 90%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 40px;
+    padding: 20px;
+    padding-bottom: 50px;
+    min-height: 100%;
 }

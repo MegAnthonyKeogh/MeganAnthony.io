@@ -8,6 +8,7 @@
     <title>Megan Anthony-Keogh's Portfolio</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Handlee" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/reset.css">
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
@@ -25,8 +26,8 @@
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Dropdown</a>
               <div class="dropdown-menu">
-                <a class="dropdown-item" href="#one">About</a>
-                <a class="dropdown-item" href="#two">Portfolio</a>
+                <a class="dropdown-item" href="#fat">About</a>
+                <a class="dropdown-item" href="#mdo">Portfolio</a>
                 <div role="separator" class="dropdown-divider"></div>
                 <a class="dropdown-item" href="#three">Contact and Follow</a>
               </div>
@@ -44,7 +45,7 @@
    </video>
    <div data-spy="scroll" data-target="#navbar-example2" data-offset="0">
       <h1 id="fat">About</h1>
-
+      <div id="about">
       <img src="assets/images/Megan2.png" alt text "Megan Anthony"height="250" width="250" class="rounded-circle">
       <p>Results driven Full-Stack Developer excited about building solutions. 
         Transiting into programming after being impassioned by leading a local chapter of Girl Develop It, 
@@ -53,10 +54,11 @@
         Combines past experience of event execution, marketing, collaborating with cross-functional teams to create 
         and maintain dynamic websites, applications and databases that are user-experience driven in design and functionality.</p>
     </div>
+  </div>
     <div data-spy="scroll" data-target="#navbar-example2" data-offset="0">
       <div class="main">
       <div class="container-fluid">
-          <h1 id="one">Portfolio</h1>
+          <h1 id="mdo">Portfolio</h1>
             <div class="row">
                     <!-- first Port Pic-->
                     <div class=.d-sm-flex>
@@ -79,7 +81,7 @@
                         <img src="assets/images/Diamond1.png" alt text "crystal" height="250" width="250" class="rounded-circle" "d-flex p-2">
                       <div id="overlay" class="rounded-circle">
                           <div class="tooltip2">
-                        <div class="textoverlay"><p>Infinity Stone Game</p></div>
+                        <div class="textoverlay"><a href="https://meganthonykeogh.github.io/crystal_collector_gotg/"><p>Infinity Stone Game</p></a></div>
                             <span class="tooltiptext2">Tooltip text</span>
                           </div>
                       </div>
@@ -92,7 +94,7 @@
                         <img src="assets/images/sloth.png" alt text "Sloth" height="250" width="250" class="rounded-circle">
                         <div class="tooltip3">
                         <div id="overlay" class="rounded-circle">
-                        <div class="textoverlay"><p>Animal Trivia</p></div>
+                        <div class="textoverlay"><a href="https://meganthonykeogh.github.io/Strange-Animal-Facts-Trivia-Game/"><p> Animal Trivia</p></a> </div>
                           <span class="tooltiptext3">Tooltip text</span>
                         </div>
                       </div>
@@ -107,7 +109,7 @@
                           <img src="assets/images/volunteer.gif" alt text "silly gif" height="250" width="250" class="rounded-circle">
                           <div class="tooltip4">
                           <div id="overlay" class="rounded-circle">
-                        <div class="textoverlay"><p>Giphy Fun</p></div>
+                        <div class="textoverlay"><a href="https://meganthonykeogh.github.io/giphyAPI/"><p>Giphy Fun</p></a></div>
                             <span class="tooltiptext4">Tooltip text</span>
                           </div>
                       </div>
@@ -121,7 +123,7 @@
                         <img src="assets/images/train.png" alt text "silly gif" height="250" width="250" class="rounded-circle">
                         <div class="tooltip5">
                         <div id="overlay" class="rounded-circle">
-                        <div class="textoverlay"><p>Train Schedule</p></div>
+                        <div class="textoverlay"><a href="https://meganthonykeogh.github.io/trainSchedule/"><p>Train Schedule</p></a></div>
                             <span class="tooltiptext5">Tooltip text</span>
                           </div>
                       </div>
@@ -134,7 +136,7 @@
                             <img src="assets/images/90s.png" alt text "Iconic 90's paraphernalia" height="250" width="250" class="rounded-circle">
                             <div class="tooltip6">
                             <div id="overlay" class="rounded-circle">
-                            <div class="textoverlay"><p>90's Word Guess</p></div>
+                            <div class="textoverlay"><a href="https://meganthonykeogh.github.io/hangman/"><p>90's Word Guess</p></a></div>
                                 <span class="tooltiptext6">Tooltip text</span>
                               </div>
                           </div>
@@ -146,15 +148,27 @@
      </div>
      </div>
      
-
-      
-      <div id="last" data-spy="scroll" data-target="#navbar-example2" data-offset="0">
-        
-        <h1 id="two">Contact and Follow</h1>
+         <div class="container-fluid">
+        <h1 id="three">Contact and Follow</h1>
+        <div id="iconic" class="row">
+            <div class="col-4"></div>
+            <div class="col-1" >
+              <a href="https://www.linkedin.com/in/meganthony/">
+              <img id="icons" src="assets/images/social-linkedin-512.png"></a>
+              </div>
+              <div class="col-1">
+                <a href="mailto:megananthony4@gmail.com">
+              <img id="icons"src="assets/images/emailIcon.png"></a>
+            </div>
+            <div class="col-1">
+              <a href="https://github.com/MegAnthonyKeogh">
+              <img id="icons" src="assets/images/github-circle-mascot-git-icon-6.png"></a>
+            </div>
+            <div class="col-4"></div>
+          </div>
+        </div>
       </div>
-      <div>
-      <p>...</p>
-    </div>
+      
 
   
     
